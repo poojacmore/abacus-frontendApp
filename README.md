@@ -5,7 +5,7 @@
 - Steps
   - Step 01 - Installing NodeJs and NPM - https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
   - Step 02 - Installing Visual Studio Code - https://code.visualstudio.com/download
-  - Step 03 - Installing Angular CLI - https://www.npmjs.com/package/@angular/cli
+  - Step 03 - Installing Angular CLI - https://www.npmjs.com/package/@angular/cli or sudo npm install -g @angular/cli
 
 #### Troubleshooting Installations
 
@@ -22,9 +22,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
 
-## Development server
+## Setting up development environment and starting server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Step 01 - change directory to abacus-frontendApp
+- Step 02 - npm install (To install all dependencies)
+- Step 03 - Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
