@@ -1,110 +1,22 @@
-# Angular Front end Todo Management Application
+# Angular Front end Application
 
-#### Installing Node Js (npm) & Visual Studio Code 
+#### Installing Node Js (npm) & Visual Studio Code
 
-- Playlist - https://www.youtube.com/playlist?list=PLBBog2r6uMCQN4X3Aa_jM9qVjgMCHMWx6
 - Steps
-  - Step 01 - Installing NodeJs and NPM - Node Package Manager
-  - Step 02 - Quick Introduction to NPM
-  - Step 03 - Installing Visual Studio Code - Front End Java Script Editor
+  - Step 01 - Installing NodeJs and NPM - https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+  - Step 02 - Installing Visual Studio Code - https://code.visualstudio.com/download
+  - Step 03 - Installing Angular CLI - https://www.npmjs.com/package/@angular/cli
 
 #### Troubleshooting Installations
 
-- Node JS and NPM 
+- Node JS and NPM
   - https://docs.npmjs.com/common-errors
   - https://docs.npmjs.com/getting-started/troubleshooting
 - Visual Studio Code
   - https://code.visualstudio.com/docs/supporting/errors
   - https://code.visualstudio.com/docs/supporting/FAQ
- 
-
-## APIs used
-
-### Get Todo - API_URL/{todo_id} (GET /todos/8)
-
-Response
-```
-{
-   "id":"8",
-   "username":"in28minutes",
-   "description":"Become AWS Certified",
-   "targetDate":"2030-07-15T05:46:47.649+0000",
-   "done":false
-}
-```
-
-
-### Get All Todos - API_URL (GET /todos)
-
-Response
-```
-[
-   {
-      "id":"8",
-      "username":"in28minutes",
-      "description":"Become AWS Certified",
-      "targetDate":"2030-07-15T05:46:47.649+0000",
-      "done":false
-   },
-   {
-      "id":"9",
-      "username":"in28minutes",
-      "description":"Learn DevOps with Docker",
-      "targetDate":"2030-07-15T05:47:05.906+0000",
-      "done":false
-   }
-]
-```
-
-
-### Update Todo - API_URL/{todo_id} (PUT /todos/9)
-
-Body
-```
-{
-   "id":"9",
-   "username":"in28minutes",
-   "description":"Learn DevOps with Docker and Kubernetes",
-   "targetDate":"2030-07-15T05:47:05.906+0000",
-   "done":false
-}
-```
-
-Response : 200 Success
-
-
-### Create Todo - API_URL (POST /todos)
-
-Body
-```
-{
-   "id":"-1",
-   "username":"in28minutes",
-   "description":"Become Azure Certified",
-   "done":false,
-   "targetDate":"2030-07-15T06:25:00.254Z"
-}
-```
-Response : 200 Success
-
-### Delete Todo - API_URL/{todo_id} (DELETE /todos/9)
-
-Response : 200 Success
-
-
-# Helpful for Lambdas
-
-```
-{
-    "resource": "/",
-    "path": "/",
-    "httpMethod": "POST",
-    "body": "{ \"id\": \"-1\",  \"username\": \"in28minutes\",  \"description\": \"Become Azure Certified\",   \"done\": false, \"targetDate\": \"2030-07-15T06:25:00.254Z\"}"
-}
-```
 
 # Original Angular Documentation
-
 
 ## Todo
 
