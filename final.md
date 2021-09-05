@@ -239,7 +239,7 @@ export class ErrorComponent implements OnInit {
 ```html
 <footer class="footer">
   <div class="container">
-    <span class="text-muted">All Rights Reserved 2018 @in28minutes</span>
+    <span class="text-muted">All Rights Reserved @Avanade Norge</span>
   </div>
 </footer>
 ```
@@ -287,9 +287,8 @@ export class FooterComponent implements OnInit {
   <table class="table">
     <thead>
       <tr>
-        <th>Description</th>
-        <th>Target Date</th>
-        <th>is Completed?</th>
+        <th>Community Name</th>
+        <th>Community description</th>
         <th>Update</th>
         <th>Delete</th>
       </tr>
@@ -297,9 +296,8 @@ export class FooterComponent implements OnInit {
     <tbody>
       <!--   for (Todo todo: todos) {  -->
       <tr *ngFor="let todo of todos">
+        <td>{{todo.communityname}}</td>
         <td>{{todo.description}}</td>
-        <td>{{todo.targetDate | date | uppercase}}</td>
-        <td>{{todo.done}}</td>
         <td>
           <button (click)="updateTodo(todo.id)" class="btn btn-success">
             Update

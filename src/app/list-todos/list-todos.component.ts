@@ -9,6 +9,7 @@ export class Todo {
     public username: string,
     public description: string,
     public done: boolean,
+    public communityname: string,
     public targetDate: Date
   ) {
 
@@ -45,7 +46,7 @@ export class ListTodosComponent implements OnInit {
 
   deleteTodo(id) {
     console.log(`delete todo ${id}`);
-    this.todoService.deleteTodo(this.authenticationService.getAuthenticatedUser(), id).subscribe(
+    this.todoService.deleteTodo(true, id).subscribe(
       response => {
         console.log(response);
         this.message = `Delete of Todo ${id} Successful!`;
