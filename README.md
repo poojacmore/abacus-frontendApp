@@ -7,6 +7,13 @@
   - Step 02 - Installing Visual Studio Code - https://code.visualstudio.com/download
   - Step 03 - Installing Angular CLI - https://www.npmjs.com/package/@angular/cli or sudo npm install -g @angular/cli
 
+### Installtion for Azure
+
+Azure CLI: https://docs.microsoft.com/en-us/cli/azure/install-azure-cli​
+
+Azure functions core: https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=windows%2Ccsharp%2Cportal%2Cbash%2Ckeda
+
+
 #### Troubleshooting Installations
 
 - Node JS and NPM
